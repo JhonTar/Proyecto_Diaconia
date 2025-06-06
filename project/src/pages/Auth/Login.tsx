@@ -5,6 +5,7 @@ import { ShieldCheck } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
 import Button from "../../components/ui/Button";
 import { MdEmail, MdLock } from 'react-icons/md';
+//import {IMAGES} from '../../images/logo.png';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -49,15 +50,7 @@ const Login = () => {
    <div className="min-h-screen flex items-center justify-center bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
   <div className="max-w-md w-full space-y-8">
     <div>
-      <div className="flex justify-center">
-        <div className="h-16 w-16 rounded-full bg-gray-800 flex items-center justify-center">
-          <img
-            src="../project/src/images/logo.png"
-            alt="Logo Diaconia Taller"
-            className="h-10 w-10 object-contain" 
-          />
-        </div>
-      </div>
+     
       <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
         Diaconia - Taller
       </h2>
